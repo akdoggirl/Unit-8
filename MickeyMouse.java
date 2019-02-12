@@ -1,33 +1,18 @@
-
-/**
- * Write a description of class MickeyMouse here.
- *
- * @author (your name)
- * @version (a version number or a date)
- */
 public class MickeyMouse
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class MickeyMouse
-     */
-    public MickeyMouse()
+    private int numberOfPalsSurrounding;
+    
+    public MickeyMouse(int num, boolean a, double s, boolean n, String c, int pals
     {
-        // initialise instance variables
-        x = 0;
+        super(4, true, 4.8, false, "meeska mooska!");
+        numberOfPalsSurrounding = pals;
     }
-
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
+    public String toString ()
     {
-        // put your code here
-        return x + y;
+        super.toString();
+        
+        String output = "Mickey Mouse is a popular childhood character for many people all over the world";
+        
+        return output;
     }
 }
