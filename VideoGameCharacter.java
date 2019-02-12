@@ -1,33 +1,37 @@
-
-/**
- * Write a description of class VideoGameCharacter here.
- *
- * @author (your name)
- * @version (a version number or a date)
- */
 public class VideoGameCharacter
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class VideoGameCharacter
-     */
-    public VideoGameCharacter()
+    private int numLimbs;
+    private boolean isItAnAnimal;
+    private double size;
+    private boolean isItNew;
+    
+    public VideoGameCharacter (int num, boolean a, double s, boolean n)
     {
-        // initialise instance variables
-        x = 0;
+        numLimbs = num;
+        isItAnAnimal = a;
+        size = s;
+        isItNew = n;
     }
-
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
+    
+    public String toString ()
     {
-        // put your code here
-        return x + y;
+        String output = new String();
+        
+        output = ("How many arms and/or legs does this character have?" + numLimbs +
+        "Is this character an animal?" + isItAnAnimal +
+        "How tall is this character?" + size + 
+        "Was this character made recently?" + isItNew);
+        
+        return output;
+    }
+    
+    public void Jump ()
+    {
+        // character jumps
+    }
+    
+    public void defeatBadGuys ()
+    {
+        // character defeats bad guys
     }
 }
