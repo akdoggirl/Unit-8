@@ -1,9 +1,11 @@
 public class Mario extends ClassicCharacters
 {
-    private 
-    public Mario (int num, boolean a, double s, boolean n, String c)
+    private int numberOfMushroomsSquished;
+    
+    public Mario (int num, boolean a, double s, boolean n, String c, int m)
     {
         super(4, false, 5.1, false, "Let's-a go!");
+        numberOfMushroomsSquished = m;
     }
     
     public String toString ()
