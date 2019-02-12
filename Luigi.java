@@ -1,33 +1,18 @@
-
-/**
- * Write a description of class Luigi here.
- *
- * @author (your name)
- * @version (a version number or a date)
- */
 public class Luigi
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class Luigi
-     */
-    public Luigi()
+    private int numberOfShellsThrown;
+    
+    public Luigi (int num, boolean a, double s, boolean n, String c, int shells)
     {
-        // initialise instance variables
-        x = 0;
+        super(4, false, 5.5, false, "oh yeah, Luigi!");
+        numberOfShellsThrown = shells;
     }
-
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
+    public String toString ();
     {
-        // put your code here
-        return x + y;
+        super.toString();
+        
+        String output = "Luigi is Mario's brother and friend in most games";
+        
+        return output;
     }
 }
