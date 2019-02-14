@@ -1,6 +1,5 @@
-public class Yoshi extends NewCharacters
+public class Yoshi extends ClassicCharacters
 {
-
 private String color;
 
     public Yoshi (int num, boolean a, double s, boolean n, String pT, String c)
