@@ -1,4 +1,4 @@
-public class Bowser extends NewCharacters 
+public class Bowser extends ClassicCharacters 
 {
 private int numberOfSpikes;
 
