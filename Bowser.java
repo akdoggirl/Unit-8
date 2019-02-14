@@ -1,33 +1,15 @@
-
-/**
- * Write a description of class Bowser here.
- *
- * @author (your name)
- * @version (a version number or a date)
- */
-public class Bowser
+public class Bowser extends NewCharacters 
 {
-    // instance variables - replace the example below with your own
-    private int x;
+private int numberOfSpikes;
 
-    /**
-     * Constructor for objects of class Bowser
-     */
-    public Bowser()
+    public Bowser (int num, boolean a, double s, boolean n, String pT, int spikes)
     {
-        // initialise instance variables
-        x = 0;
+        super(4, true, 4.0, true, "Bwahahaha");\
+        numberOfSpikes = spikes;
     }
-
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
+    String toString ()
     {
-        // put your code here
-        return x + y;
+        super.toString();
+        String output = "Bowser is the main villain in the Mario world";
     }
 }
