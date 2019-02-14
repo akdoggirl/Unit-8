@@ -3,7 +3,7 @@ public class Yoshi extends NewCharacters
 
 private String color;
 
-    public Yoshi (int num, boolean a, double s, boolean n, String pT, String color)
+    public Yoshi (int num, boolean a, double s, boolean n, String pT, String c)
     {
         super(3, true, 5.6, true, "Yoshi!");
         color = c;
